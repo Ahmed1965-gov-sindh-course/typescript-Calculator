@@ -32,12 +32,13 @@ if(numberone && numbertwo && operator){
            result = numberone-numbertwo
     }
         if(operator==="*"){
-                let result = numberone*numbertwo
+                 result = numberone*numbertwo
         }        
-        }       
+              
         if(operator==="/"){
-                    let result = numberone/numbertwo
-                }
-else{
+                     result = numberone/numbertwo
+                } 
+                console.log("your result is" ,  result)
+            }else{
     console.log("Enter valid number")
 }
